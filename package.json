@@ -1,0 +1,39 @@
+{
+  "name": "boostpt-api",
+  "version": "1.0.0",
+  "description": "BoostPT-Serverless-Api-gateway",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DChan0319/BoostPT-Api.git"
+  },
+  "author": "Darren Chan",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/DChan0319/BoostPT-Api/issues"
+  },
+  "homepage": "https://github.com/DChan0319/BoostPT-Api#readme",
+  "dependencies": {
+    "@nestjs/common": "^6.5.3",
+    "@nestjs/core": "^6.5.3",
+    "@nestjs/jwt": "^6.1.1",
+    "@nestjs/passport": "^6.1.0",
+    "aws-lambda": "^0.1.2",
+    "aws-serverless-fastify": "^1.0.10",
+    "fastify": "^2.7.1",
+    "fastify-http-proxy": "^2.2.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.2",
+    "serverless-plugin-typescript": "^1.1.9"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.31",
+    "serverless-plugin-warmup": "^4.7.0-rc.1"
+  }
+}
