@@ -21,6 +21,7 @@
     "@nestjs/core": "^6.5.3",
     "@nestjs/jwt": "^6.1.1",
     "@nestjs/passport": "^6.1.0",
+    "@nestjs/platform-fastify": "^6.5.3",
     "aws-lambda": "^0.1.2",
     "aws-serverless-fastify": "^1.0.10",
     "fastify": "^2.7.1",
