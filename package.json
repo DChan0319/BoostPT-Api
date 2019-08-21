@@ -4,7 +4,8 @@
   "description": "BoostPT-Serverless-Api-gateway",
   "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && tsc -p tsconfig.json",
+    "start:dev": "tsc-watch -p tsconfig.json --onSuccess \"node dist/main.js\""
   },
   "repository": {
     "type": "git",
@@ -30,11 +31,15 @@
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.0",
     "rxjs": "^6.5.2",
-    "serverless-plugin-typescript": "^1.1.9"
+    "serverless-plugin-typescript": "^1.1.9",
+    "tsc-watch": "^2.4.0"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.31",
-    "serverless-plugin-warmup": "^4.7.0-rc.1"
+    "@types/node": "^12.7.2",
+    "serverless-plugin-warmup": "^4.7.0-rc.1",
+    "typescript": "^3.5.3"
   }
 }

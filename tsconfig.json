@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "ES2015",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "sourceMap": true,
+        "outDir": "./dist",
+    },
+    "exclude": ["node_modules", "dist"],
+}
