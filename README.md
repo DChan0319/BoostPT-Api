@@ -1,11 +1,13 @@
-## BoostPT-API
+# BoostPT-API
+
 BoostPT is a physical trainer platform created to allow trainers and clients to connect and interact with one another.
 
 ## Developing
+
 Install project dependencies and start a local development server with the following terminal commands:
 
 ```bash
-npm i 
+npm i
 npm run start:dev
 ```
 
